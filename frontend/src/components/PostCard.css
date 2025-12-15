@@ -1,0 +1,46 @@
+.post-card {
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  padding: 14px 16px;
+  border-bottom: 1px solid #efefef;
+}
+
+.post-author {
+  font-weight: 600;
+  color: #262626;
+  text-decoration: none;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-actions {
+  padding: 10px 16px;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.post-content {
+  padding: 0 16px;
+  margin-bottom: 10px;
+}
+
+.author-name {
+  font-weight: 600;
+  margin-right: 6px;
+}

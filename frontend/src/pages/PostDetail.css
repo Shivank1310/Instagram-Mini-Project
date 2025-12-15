@@ -1,0 +1,11 @@
+.post-detail-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.error {
+  text-align: center;
+  color: #ed4956;
+  margin-top: 40px;
+}

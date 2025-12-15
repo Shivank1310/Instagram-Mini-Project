@@ -1,0 +1,73 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.auth-box {
+  background: white;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  width: 350px;
+  text-align: center;
+}
+
+.auth-logo {
+  font-family: 'Grand Hotel', cursive; /* Or just a nice font */
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.auth-subtitle {
+  color: #8e8e8e;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-form input {
+  padding: 9px 8px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background: #fafafa;
+  font-size: 14px;
+}
+
+.auth-form button {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-form button:disabled {
+  opacity: 0.7;
+}
+
+.error-message {
+  color: #ed4956;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.auth-switch {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.auth-switch a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: 600;
+}

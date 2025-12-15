@@ -1,0 +1,45 @@
+.comment-section {
+  padding: 10px 15px;
+}
+
+.comments-list {
+  margin-bottom: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.comment {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.comment-author {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.comment-form {
+  display: flex;
+  border-top: 1px solid #efefef;
+  padding-top: 10px;
+}
+
+.comment-form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.comment-form button {
+  background: none;
+  border: none;
+  color: #0095f6;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.comment-form button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
